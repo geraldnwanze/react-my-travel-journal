@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section{
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gray{
+  color: #918E9B;
+}
+
+.app{
+  width: 50%;
+  height: calc(100vh - 5vh);
+  margin: auto;
+  margin-top: calc(100vh - 97.5vh);
+  margin-bottom: calc(100vh - 97.5vh);
+  box-shadow: 0.1px 0.1px 11px;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+header{
+  background: #F55A5A;
+  width: 100%;
+  height: 55px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--logo{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 213px;
+  top: 16px;
+  background: #FFFFFF;
+}
+
+.header-logo--1{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 50px);
+  top: calc(50% - 24px/2 - 324px);
+  background: #DADADA;
+}
+
+.header--logo--2{
+  position: absolute;
+  width: 12.8px;
+  height: 18.8px;
+  left: 215.8px;
+  top: 18.4px;
+  background: #DADADA;
+}
+
+.header--logo--3{
+  position: absolute;
+  width: 5.2px;
+  height: 13.6px;
+  right: 315.4px;
+  top: 19.6px;
+  background: #DADADA;
+}
+
+.header--text{
+  color: white;
+  font-weight: bold;
+}
+
+.card--list{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  display: flex;
+  gap: 30px;
+  max-width: 100%;
+  max-height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr{
+  color: #F5F5F5;
+  width: 100%;
+}
+
+.card--image--box{
+  height: 200px;
+  max-height: 200px;
+}
+
+.card--image{
+  height: 100%;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.card--info--box{
+  width: 100%;
+  height: 100%;
+}
+
+.card--info--location--box{
+  display: flex;
+  gap: 20px;
+}
+
+.card--info--location{
+  font-size: 20px;
+}
+
+.card--info--map > a{
+  font-size: 12px;
+}
+
+.card--info--box .date{
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.card--info--box .description{
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
 }

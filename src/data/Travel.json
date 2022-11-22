@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Mount Fuji",
+        "location": "Japan",
+        "googleMapsUrl": "https://goo.gl/maps/1Y5uCqWL5ZzDurNy7",
+        "startDate": "12 Jan, 2022",
+        "endDate": "30 Jan, 2022",
+        "description": "Japan’s Mt. Fuji is an active volcano about 100 kilometers southwest of Tokyo. Commonly called “Fuji-san,” it’s the country’s tallest peak, at 3,776 meters. A pilgrimage site for centuries, it’s considered one of Japan’s 3 sacred mountains, and summit hikes remain a popular activity. Its iconic profile is the subject of numerous works of art, notably Edo Period prints by Hokusai and Hiroshige.",
+        "imageUrl": "https://source.unsplash.com/WLxQvbMyfas"
+    },
+    {
+        "id": 2,
+        "title": "Sydney Opera House",
+        "location": "Australia",
+        "googleMapsUrl": "https://goo.gl/maps/6vUck2aLjcwYJn568",
+        "startDate": "13 Feb, 2022",
+        "endDate": "28 Feb, 2022",
+        "description": "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the foreshore of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings and a masterpiece of 20th century architecture.",
+        "imageUrl": "https://source.unsplash.com/JmuyB_LibRo"
+    },
+    {
+        "id": 3,
+        "title": "Geirangerfjord",
+        "location": "Norway",
+        "googleMapsUrl": "https://goo.gl/maps/Hknnu9LMjYHJGKtD7",
+        "startDate": "15 March, 2022",
+        "endDate": "22 March, 2022",
+        "description": "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality. It is a 15-kilometre-long branch off the Sunnylvsfjorden, which is a branch off the Storfjorden.",
+        "imageUrl": "https://source.unsplash.com/3PeSjpLVtLg"
+    }
+]
